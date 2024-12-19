@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace магазин
 {
@@ -27,7 +28,7 @@ namespace магазин
             string text2 = richTextBox2.Text;
             if (string.IsNullOrEmpty(text1) || string.IsNullOrEmpty(text2))
             {
-                MessageBox.Show("sd");
+                MessageBox.Show("The fild are empty");
             }
             else
             {
@@ -45,9 +46,17 @@ namespace магазин
                 {
                     MessageBox.Show(ex.Message);
                 }
-                
-
             }
+        }
+
+        private void Inserting_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void richTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+      
+
         }
     }
 }
