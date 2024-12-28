@@ -28,6 +28,7 @@ namespace MySQLToGridViewExample
 
 
         }
+   
         //public string CountText = "";
 
         public void AddColumns()
@@ -52,6 +53,9 @@ namespace MySQLToGridViewExample
         }
         public void LoadData()
         {
+            List<String> Products = new List<String>();
+
+
             try
             {
                 conn.Open();
@@ -307,14 +311,11 @@ namespace MySQLToGridViewExample
 
         private void dataGridView1_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
-        
         }
 
         private void dataGridView1_CellValuePushed(object sender, DataGridViewCellValueEventArgs e)
         {
-
         }
-
         private void button7_Click(object sender, EventArgs e)
         {
             int a = 0;
@@ -325,6 +326,14 @@ namespace MySQLToGridViewExample
             }
             Calculation();
             //dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {   
         }
     }
 }

@@ -100,7 +100,7 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 188);
+            this.dataGridView1.Location = new System.Drawing.Point(1, 188);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -113,7 +113,7 @@
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(956, 336);
+            this.dataGridView1.Size = new System.Drawing.Size(959, 336);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dataGridView1_CellBeginEdit);
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
@@ -174,7 +174,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.Location = new System.Drawing.Point(431, 17);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 18);
+            this.label8.Size = new System.Drawing.Size(66, 24);
             this.label8.TabIndex = 7;
             this.label8.Text = "label8";
             // 
@@ -184,7 +184,7 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(322, 15);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(68, 20);
+            this.label7.Size = new System.Drawing.Size(90, 25);
             this.label7.TabIndex = 6;
             this.label7.Text = "Сумма:";
             // 
@@ -194,7 +194,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(155, 70);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 18);
+            this.label6.Size = new System.Drawing.Size(60, 24);
             this.label6.TabIndex = 5;
             this.label6.Text = "label6";
             // 
@@ -204,7 +204,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(155, 44);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 18);
+            this.label4.Size = new System.Drawing.Size(60, 24);
             this.label4.TabIndex = 3;
             this.label4.Text = "label4";
             // 
@@ -214,7 +214,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(6, 70);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 18);
+            this.label3.Size = new System.Drawing.Size(108, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Дата чека";
             // 
@@ -224,7 +224,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(6, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 18);
+            this.label1.Size = new System.Drawing.Size(124, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Номер чека";
             // 
@@ -233,7 +233,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(620, 44);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(338, 37);
+            this.textBox1.Size = new System.Drawing.Size(338, 45);
             this.textBox1.TabIndex = 18;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
@@ -243,7 +243,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(18, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 18);
+            this.label5.Size = new System.Drawing.Size(122, 24);
             this.label5.TabIndex = 20;
             this.label5.Text = "Сотрудник:";
             // 
@@ -253,7 +253,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(163, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 18);
+            this.label2.Size = new System.Drawing.Size(60, 24);
             this.label2.TabIndex = 19;
             this.label2.Text = "label2";
             // 
@@ -273,7 +273,7 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(9, 62);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(65, 20);
+            this.radioButton4.Size = new System.Drawing.Size(69, 21);
             this.radioButton4.TabIndex = 1;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Карта";
@@ -284,7 +284,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(9, 36);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(93, 20);
+            this.radioButton3.Size = new System.Drawing.Size(97, 21);
             this.radioButton3.TabIndex = 0;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Наличные";
@@ -299,6 +299,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Оплата";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -349,6 +350,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(338, 24);
             this.comboBox1.TabIndex = 28;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Form1
             // 
